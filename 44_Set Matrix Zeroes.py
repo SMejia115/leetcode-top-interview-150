@@ -23,7 +23,7 @@ class Solution(object):
                 if matrix[i][0] == 0 or matrix[0][j] == 0:
                     matrix[i][j] = 0
         
-        # Step 3: Zero first row if needed
+    # Step 3: Zero first row if needed
         if first_row_zero:
             for j in range(n):
                 matrix[0][j] = 0
