@@ -38,5 +38,7 @@ class MinStack(object):
         :rtype: int
         """
         return self.minStack[-1]
+    
+    
         
 
